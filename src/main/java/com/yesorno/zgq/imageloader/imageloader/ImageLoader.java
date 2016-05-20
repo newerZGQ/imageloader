@@ -1,4 +1,4 @@
-package com.yesorno.zgq.imageloader;
+package com.yesorno.zgq.imageloader.imageloader;
 
     import java.io.BufferedInputStream;
     import java.io.BufferedOutputStream;
@@ -23,7 +23,6 @@ package com.yesorno.zgq.imageloader;
     import android.graphics.Bitmap;
     import android.graphics.BitmapFactory;
     import android.os.Build;
-    import android.os.Build.VERSION_CODES;
     import android.os.Environment;
     import android.os.Handler;
     import android.os.Looper;
@@ -33,7 +32,10 @@ package com.yesorno.zgq.imageloader;
     import android.util.Log;
     import android.widget.ImageView;
 
-    public class ImageLoader {
+    import com.yesorno.zgq.imageloader.MyUtils;
+    import com.yesorno.zgq.imageloader.R;
+
+public class ImageLoader {
 
         private static final String TAG = "ImageLoader";
 

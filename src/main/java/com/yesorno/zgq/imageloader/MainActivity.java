@@ -19,6 +19,8 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import com.yesorno.zgq.imageloader.imageloader.ImageLoader;
+
 public class MainActivity extends Activity implements OnScrollListener {
     private static final String TAG = "MainActivity";
 

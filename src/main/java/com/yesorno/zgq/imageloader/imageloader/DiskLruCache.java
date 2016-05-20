@@ -1,4 +1,4 @@
-package com.yesorno.zgq.imageloader;
+package com.yesorno.zgq.imageloader.imageloader;
 
 /**
  * Created by 37902 on 2016/5/19.
